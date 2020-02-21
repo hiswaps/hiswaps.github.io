@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  background: #333 url('background.jpg') no-repeat center center / cover;
+  color: white;
+  overflow:hidden;
+  padding-bottom: 3cm;
+}
+
+.begin {
+    text-align: center;
+    color: white;
+    font-weight: 570;
+    font-size: 55px;
+    padding-top: 5cm; /* orig: 3cm */
+    text-shadow: -1px 0 #d12329, 0 3px #d12329, 1px 0 #d12329, 0 -1px #d12329;
+}
+
+.name {
+    text-align: center;
+    color: #d12329;
+    text-shadow: -1px 0 white, 0 3px white, 1px 0 white, 0 -1px white;
+    font-weight: 900;
+    font-size: 80px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem;
+  
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin: 0.4rem;
+  
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #aaa;
+  text-align: center;
+}
+
+/* Cursor */
+.text-type > .txt {
+  border-right: 0.2rem solid white;
+  color: #d12329;
+  text-shadow: -1px 0 white, 0 2.1px white, 1px 0 white, 0 -1px white;
+  font-size: 43px;
+}
+
+@media(min-width: 1200px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.start {
+  font-size: 43px;
+}
+
+
+
+.linkedin {
+
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 140px;
+  height: 50px;
+  font-size: 27px;
+  font-weight: bold;
+  background-color: #d12329;
+  /*margin-left: 45%; */
+  margin-top: 0.75em;
+  padding-left: 5.8px;
+  
+}
+
+.github {
+
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 140px;
+  height: 50px;
+  font-size: 27px;
+  font-weight: bold;
+  background-color: #d12329;
+  /*margin-left: 45%; */
+  margin-top: 0.75em;
+  padding-left: 6px;
+  
+}
+
+
+
+.butts {
+  /*text-align: center; */
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 5cm;
+  text-align: center;
+  font-size: 20px;
+}
+
+.linkedin:hover{
+  color: #d12329;
+  background-color: rgb(0, 0, 0);
+}
+
+.github:hover{
+  color: #d12329;
+  background-color: rgb(0, 0, 0);
+}
