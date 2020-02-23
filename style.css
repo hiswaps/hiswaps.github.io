@@ -15,12 +15,12 @@ body {
     font-weight: 570;
     font-size: 55px;
     padding-top: 5cm; /* orig: 3cm */
-    text-shadow: -1px 0 #d12329, 0 3px #d12329, 1px 0 #d12329, 0 -1px #d12329;
+    text-shadow: -1px 0 rgb(230, 71, 71), 0 3px rgb(230, 71, 71), 1px 0 rgb(230, 71, 71), 0 -1px rgb(230, 71, 71);
 }
 
 .name {
     text-align: center;
-    color: #d12329;
+    color: rgb(230, 71, 71);
     text-shadow: -1px 0 white, 0 3px white, 1px 0 white, 0 -1px white;
     font-weight: 900;
     font-size: 80px;
@@ -62,7 +62,7 @@ h2 {
 /* Cursor */
 .text-type > .txt {
   border-right: 0.2rem solid white;
-  color: #d12329;
+  color: rgb(230, 71, 71);
   text-shadow: -1px 0 white, 0 2.1px white, 1px 0 white, 0 -1px white;
   font-size: 43px;
 }
@@ -110,7 +110,7 @@ h2 {
   height: 50px;
   font-size: 27px;
   font-weight: bold;
-  background-color: #d12329;
+  background-color: rgb(230, 71, 71);
   /*margin-left: 45%; */
   margin-top: 0.75em;
   padding-left: 5.8px;
@@ -128,7 +128,7 @@ h2 {
   height: 50px;
   font-size: 27px;
   font-weight: bold;
-  background-color: #d12329;
+  background-color: rgb(230, 71, 71);
   /*margin-left: 45%; */
   margin-top: 0.75em;
   padding-left: 6px;
@@ -149,11 +149,11 @@ h2 {
 }
 
 .linkedin:hover{
-  color: #d12329;
+  color: rgb(230, 71, 71);
   background-color: rgb(0, 0, 0);
 }
 
 .github:hover{
-  color: #d12329;
+  color: rgb(230, 71, 71);
   background-color: rgb(0, 0, 0);
 }
